@@ -1,0 +1,134 @@
+/* The Nav Bar */
+header {
+    background-color: white;
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+.last {
+    margin: 0;
+    padding: 0;
+    gap: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.three-bars {
+    width:  30px;
+    height: 30px;
+}
+
+.search-bar {
+    width: 562px;
+    height: 32px;
+    display: flex;
+    
+}
+.search-logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+.search-btn {
+    background-color: #e7e7e7;
+    width: 10%;
+    border: 1px solid #8f8f9d;
+    border-left: none;
+}
+input {
+    width: 90%;
+    font-size: 100%;
+    padding-left: 10px;
+    border: 1px solid #8f8f9d;
+}
+a {
+    text-decoration: none;
+}
+.voice-logo {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.lb-logo {
+    color: #848484;
+    font-size: smaller;
+    display: flex;
+}
+
+.ytb-logo {
+    height: 30px;
+    width: 90px;
+}
+.create,
+.youtube-app,
+.bell {
+    max-width: 40%;
+    max-height: 40%;
+}
+.account {
+    background-color: #7a1fa2;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* The Content */
+body {
+    background-color: #f9f9f9;
+}
+
+.content {
+    display: flex;
+    padding: 0 2%;
+}
+
+/* The Video */
+.video {
+    flex: 1.8;
+    margin-right: -60px;
+}
+
+.video figcaption {
+    margin-top:  20px;
+}
+
+/* The SideBar */
+.thumbnails {
+    flex: 1;
+}
+
+.img {
+    width: 168px;
+    height: 94px;
+}
+
+.thumbnails figure {
+    display: flex;
+    gap: 10px;
+}
+
+/* @media screen */
+
+@media (max-width: 1000px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+}
